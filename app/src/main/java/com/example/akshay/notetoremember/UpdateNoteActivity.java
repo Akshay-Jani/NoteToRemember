@@ -15,7 +15,7 @@ public class    UpdateNoteActivity extends AppCompatActivity {
     Button btnUpdate;
     public int db_version = 1;
     public String db_name = "appdb";
-    public String tb_name = "list_notes";
+    public String table_name = "list_notes";
     public String db_id = "id";
     public String db_title = "title";
     public String db_description = "description";
