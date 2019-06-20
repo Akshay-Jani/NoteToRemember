@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayNoteActivity"
+    android:orientation="vertical"
+    android:background="@color/colorBack">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvdn_title"
+        android:text="Title"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvdn_desc"
+        android:text="Desc"
+        android:textSize="24sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="335dp"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:rippleColor="@color/colorAccent"
+        app:srcCompat="@android:drawable/ic_popup_reminder"
+        android:backgroundTint="@color/colorPrimaryDark"/>
+
+</LinearLayout>
