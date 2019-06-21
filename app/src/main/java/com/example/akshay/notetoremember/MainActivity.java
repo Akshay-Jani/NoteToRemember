@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("title",title);
                 intent.putExtra("desc",desc);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
 
                 //overridePendingTransition(R.anim.slide_in_out,R.anim.slide_in_out);  entry and exit animation
             }

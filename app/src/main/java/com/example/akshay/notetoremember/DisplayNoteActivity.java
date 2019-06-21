@@ -67,5 +67,7 @@ public class DisplayNoteActivity extends AppCompatActivity {
                 datePickerDialog.show();
             }
         });
+
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
     }
 }
